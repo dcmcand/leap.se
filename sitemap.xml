@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/author/admin/</loc>
+    <lastmod>2020-11-11T18:27:49+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/</loc>
+    <lastmod>2020-11-11T18:27:49+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <lastmod>2020-11-11T18:27:49+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-11-11T18:27:49+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2020_07_wireguard/</loc>
+    <lastmod>2020-11-11T18:27:49+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/ramblings/</loc>
+    <lastmod>2020-11-11T18:27:49+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-11-11T18:27:49+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/category/vpn/</loc>
+    <lastmod>2020-11-11T18:27:49+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/whynot/</loc>
+    <lastmod>2020-11-11T18:27:49+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/news/</loc>
+    <lastmod>2020-11-11T18:27:49+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2020_04_smack_the_virus/</loc>
+    <lastmod>2020-11-11T18:27:49+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/windows/</loc>
+    <lastmod>2020-11-11T18:27:49+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/leap/</loc>
+    <lastmod>2020-11-11T18:03:51+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2019-05-06T17:54:11+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/</loc>
+  </url>
+  
+  <url>
+    <loc>/publication/</loc>
+    <lastmod>2019-05-06T17:54:11+01:00</lastmod>
+  </url>
+  
+</urlset>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>vpn | LEAP Encryption Access Project</title>
+    <link>/category/vpn/</link>
+      <atom:link href="/category/vpn/index.xml" rel="self" type="application/rss+xml" />
+    <description>vpn</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>vpn</title>
+      <link>/category/vpn/</link>
+    </image>
+    
+    <item>
+      <title>On wireguard</title>
+      <link>/post/2020_07_wireguard/</link>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>/post/2020_07_wireguard/</guid>
+      <description>&lt;p&gt;Our VPN is built on top of 
+&lt;a href=&#34;https://openvpn.net/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OpenVPN&lt;/a&gt;, a well tested and
+widely used technology that has been around for almost two decades. As most
+software with enough history it has grown with a lot of features and code
+complexity. This is great as it has everything that we need to provide a stable
+service, but at the same time it brings now and then security issues. The
+OpenVPN team has been really good at handling them in a timely manner and in
+LEAP we&amp;rsquo;ve been lucky to have designed our VPN in a way that prevented us from
+being affected by most of the ones that have appeared in the last years.&lt;/p&gt;
+&lt;p&gt;Since a few years there is a newcomer to the free software VPNs:
+
+&lt;a href=&#34;https://wireguard.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;WireGuard&lt;/a&gt;. WireGuard uses nice modern cryptography
+primitives, a pretty simple protocol and has a small code base. This makes it a
+very fast VPN and probably less prone to security issues.&lt;/p&gt;
+&lt;p&gt;If WireGuard is so great why don&amp;rsquo;t we ditch OpenVPN and use WireGuard instead?
+WireGuard is great, but (yes, there is always a &amp;ldquo;but&amp;rdquo;) it wasn&amp;rsquo;t designed for
+our use cases and it is not trivial to make it work for us.&lt;/p&gt;
+&lt;p&gt;WireGuard uses UDP, which is great for speed. But many of our users are in
+networks that don&amp;rsquo;t allow UDP traffic and for them to be able to connect we
+need the VPN to support TCP. We are currently using OpenVPN on TCP mode, but
+our plan for the future is to dynamically use UDP if available and if not to
+fall back to TCP.&lt;/p&gt;
+&lt;p&gt;Some time ago there was a discussion about 
+&lt;a href=&#34;https://lists.zx2c4.com/pipermail/wireguard/2018-March/002496.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TCP support in the wireguard
+mailing
+list&lt;/a&gt;, with
+proposed solutions like using
+
+&lt;a href=&#34;https://github.com/securesocketfunneling/ssf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ssf&lt;/a&gt;,
+
+&lt;a href=&#34;http://www.dest-unreach.org/socat/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;socat&lt;/a&gt; or
+
+&lt;a href=&#34;http://www1.cs.columbia.edu/~lennox/udptunnel/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;udptunnel&lt;/a&gt;. All of them sound
+a bit hacky, one extra moving piece that can break.&lt;/p&gt;
+&lt;p&gt;Another problem is that WireGuard doesn&amp;rsquo;t provide dynamic IP allocation. We
+don&amp;rsquo;t know in advance who will be connected to assign static IPs to each
+client.  We rely on OpenVPN to do it dynamically each time a client connects.
+In WireGuard we would need to build some tooling around to do all this IP
+assignment without the service operators getting the possibility to correlate
+users and clients to IPs.&lt;/p&gt;
+&lt;p&gt;Besides all these technical issues there is a security issue, the
+authentication protocol of WireGuard is not Forward Secret. That means an
+observer recording all conversations only need to wait until the server long
+term secret key gets compromised to be able to figure out which client produced
+each connection. Let me remark, this doesn&amp;rsquo;t mean that the attacker can decrypt
+the traffic, they only see the authentication key, so they can pinpoint a
+client being the same in different connections.&lt;/p&gt;
+&lt;p&gt;While this is a flaw, it is clearly an improvement over TLS 1.2 with client
+certificates, which we are currently using with OpenVPN. Previously to TLS 1.3
+(the latest version) if you authenticate the clients using a cert, which we use
+to avoid having a list of users, the cert is sent unencrypted. That means that
+currently an observer does not even need a compromised server private key to
+track the users. We do minimize that by rotating the cert frequently and we are
+preparing a migration to TLS 1.3, that solves this problem by transferring the
+cert over a forward secret channel.&lt;/p&gt;
+&lt;p&gt;The dynamic IP allocation and the lack of forward secrecy for client
+identifiers are being worked on in a separate tool named
+
+&lt;a href=&#34;https://git.zx2c4.com/wg-dynamic/about/docs/idea.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;wg-dynamic&lt;/a&gt; which does
+handle the IP allocation and rotates the client identifier. So maybe in the
+future those will be solved when wg-dynamic becomes more mature.&lt;/p&gt;
+&lt;p&gt;Right now for us adopting WireGuard would require a lot of development work to
+get around those issues and to get a new technology stable enough to be used in
+production. We already have our hands full maintaining the existing service and
+prefer to prioritize our energies on providing a more stable and smooth VPN.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Smack the Virus!</title>
+      <link>/post/2020_04_smack_the_virus/</link>
+      <pubDate>Fri, 10 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/post/2020_04_smack_the_virus/</guid>
+      <description>&lt;p&gt;First things first: we&amp;rsquo;re alive and kicking, staying healthy and physically distant. In fact, we are keeping our physical distance at a minimum of 450kms (that&amp;rsquo;s 280 miles)!&lt;/p&gt;
+&lt;p&gt;If you are a Windows user, and you have tried to install or download 
+&lt;a href=&#34;https://riseup.net/en/vpn&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RiseupVPN&lt;/a&gt; and ran into one of those big, red warnings?&lt;/p&gt;
+&lt;p&gt;It might not come as a big surprise to you, but virus and malware detection isn&amp;rsquo;t a very precise or exact science. The heuristics used vary, but they somehow have to figure out what malware or a virus is and if they fail to detect one, no one will want to use them again. In practice this means that there are many false positives and alas, it has been happening too often with our software, even though we&amp;rsquo;re doing our very best to keep you safe, sometimes it feels like a lottery!&lt;/p&gt;
+&lt;p&gt;We&amp;rsquo;ve been working hard to make this go away, and we think that the latest release makes some very significant progress. It is a painful process, sometimes very manual as we have to file disputes with the malware organizations. Have you tried the new version?&lt;/p&gt;
+&lt;p&gt;Remember kids, when Windows asks: &amp;ldquo;Possible virus! Do you want to report this?&amp;rdquo; think twice, you could be re-inforcing a false report and making our job harder!&lt;/p&gt;
+&lt;p&gt;Don&amp;rsquo;t forget to stay safe from your ISP (or neigbor/partner/family/&amp;hellip;) and use a trusted VPN provider like 
+&lt;a href=&#34;https://calyxinstitute.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;the Calyx Institute&lt;/a&gt; or 
+&lt;a href=&#34;https://riseup.net/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Riseup&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;If you want to read more about this:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://0xacab.org/leap/bitmask-vpn/-/issues/222&#34;&gt;https://0xacab.org/leap/bitmask-vpn/-/issues/222&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Rogue_security_software&#34;&gt;https://en.wikipedia.org/wiki/Rogue_security_software&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Antivirus_software#Issues_of_concern&#34;&gt;https://en.wikipedia.org/wiki/Antivirus_software#Issues_of_concern&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;When you want to help out:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Code &amp;amp; Bugtracker: &lt;a href=&#34;https://0xacab.org/leap&#34;&gt;https://0xacab.org/leap&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;♥ donation: &lt;a href=&#34;https://leap.se/en/about-us/donate&#34;&gt;https://leap.se/en/about-us/donate&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Desktop translations: &lt;a href=&#34;https://www.transifex.com/otf/bitmask/RiseupVPN/&#34;&gt;https://www.transifex.com/otf/bitmask/RiseupVPN/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Android translations: &lt;a href=&#34;https://www.transifex.com/otf/bitmask-android/dashboard/&#34;&gt;https://www.transifex.com/otf/bitmask-android/dashboard/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Mailinglist: &lt;a href=&#34;mailto:leap-discuss@lists.riseup.net&#34;&gt;leap-discuss@lists.riseup.net&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Chat: ircs://irc.freenode.org/#leap if you don&amp;rsquo;t have an irc client, you can use a gateway like 
+&lt;a href=&#34;https://about.riot.im/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Matrix&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Image by Ross Harmes: &lt;a href=&#34;https://www.flickr.com/photos/rossharmes/4347385767&#34;&gt;https://www.flickr.com/photos/rossharmes/4347385767&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>windows | LEAP Encryption Access Project</title>
+    <link>/tag/windows/</link>
+      <atom:link href="/tag/windows/index.xml" rel="self" type="application/rss+xml" />
+    <description>windows</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 10 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>windows</title>
+      <link>/tag/windows/</link>
+    </image>
+    
+    <item>
+      <title>Smack the Virus!</title>
+      <link>/post/2020_04_smack_the_virus/</link>
+      <pubDate>Fri, 10 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/post/2020_04_smack_the_virus/</guid>
+      <description>&lt;p&gt;First things first: we&amp;rsquo;re alive and kicking, staying healthy and physically distant. In fact, we are keeping our physical distance at a minimum of 450kms (that&amp;rsquo;s 280 miles)!&lt;/p&gt;
+&lt;p&gt;If you are a Windows user, and you have tried to install or download 
+&lt;a href=&#34;https://riseup.net/en/vpn&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RiseupVPN&lt;/a&gt; and ran into one of those big, red warnings?&lt;/p&gt;
+&lt;p&gt;It might not come as a big surprise to you, but virus and malware detection isn&amp;rsquo;t a very precise or exact science. The heuristics used vary, but they somehow have to figure out what malware or a virus is and if they fail to detect one, no one will want to use them again. In practice this means that there are many false positives and alas, it has been happening too often with our software, even though we&amp;rsquo;re doing our very best to keep you safe, sometimes it feels like a lottery!&lt;/p&gt;
+&lt;p&gt;We&amp;rsquo;ve been working hard to make this go away, and we think that the latest release makes some very significant progress. It is a painful process, sometimes very manual as we have to file disputes with the malware organizations. Have you tried the new version?&lt;/p&gt;
+&lt;p&gt;Remember kids, when Windows asks: &amp;ldquo;Possible virus! Do you want to report this?&amp;rdquo; think twice, you could be re-inforcing a false report and making our job harder!&lt;/p&gt;
+&lt;p&gt;Don&amp;rsquo;t forget to stay safe from your ISP (or neigbor/partner/family/&amp;hellip;) and use a trusted VPN provider like 
+&lt;a href=&#34;https://calyxinstitute.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;the Calyx Institute&lt;/a&gt; or 
+&lt;a href=&#34;https://riseup.net/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Riseup&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;If you want to read more about this:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://0xacab.org/leap/bitmask-vpn/-/issues/222&#34;&gt;https://0xacab.org/leap/bitmask-vpn/-/issues/222&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Rogue_security_software&#34;&gt;https://en.wikipedia.org/wiki/Rogue_security_software&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Antivirus_software#Issues_of_concern&#34;&gt;https://en.wikipedia.org/wiki/Antivirus_software#Issues_of_concern&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;When you want to help out:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Code &amp;amp; Bugtracker: &lt;a href=&#34;https://0xacab.org/leap&#34;&gt;https://0xacab.org/leap&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;♥ donation: &lt;a href=&#34;https://leap.se/en/about-us/donate&#34;&gt;https://leap.se/en/about-us/donate&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Desktop translations: &lt;a href=&#34;https://www.transifex.com/otf/bitmask/RiseupVPN/&#34;&gt;https://www.transifex.com/otf/bitmask/RiseupVPN/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Android translations: &lt;a href=&#34;https://www.transifex.com/otf/bitmask-android/dashboard/&#34;&gt;https://www.transifex.com/otf/bitmask-android/dashboard/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Mailinglist: &lt;a href=&#34;mailto:leap-discuss@lists.riseup.net&#34;&gt;leap-discuss@lists.riseup.net&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Chat: ircs://irc.freenode.org/#leap if you don&amp;rsquo;t have an irc client, you can use a gateway like 
+&lt;a href=&#34;https://about.riot.im/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Matrix&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Image by Ross Harmes: &lt;a href=&#34;https://www.flickr.com/photos/rossharmes/4347385767&#34;&gt;https://www.flickr.com/photos/rossharmes/4347385767&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
