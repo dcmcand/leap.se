@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>windows | LEAP Encryption Access Project</title>
-    <link>https://chuckmcandrew.com/leap.se/tag/windows/</link>
-      <atom:link href="https://chuckmcandrew.com/leap.se/tag/windows/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://leap.se/tag/windows/</link>
+      <atom:link href="https://leap.se/tag/windows/index.xml" rel="self" type="application/rss+xml" />
     <description>windows</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 10 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>(c) LEAP 2020 - all rights reversed</copyright><lastBuildDate>Fri, 10 Apr 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://chuckmcandrew.com/leap.se/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>https://leap.se/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>windows</title>
-      <link>https://chuckmcandrew.com/leap.se/tag/windows/</link>
+      <link>https://leap.se/tag/windows/</link>
     </image>
     
     <item>
       <title>Smack the Virus!</title>
-      <link>https://chuckmcandrew.com/leap.se/post/2020_04_smack_the_virus/</link>
+      <link>https://leap.se/post/2020_04_smack_the_virus/</link>
       <pubDate>Fri, 10 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://chuckmcandrew.com/leap.se/post/2020_04_smack_the_virus/</guid>
+      <guid>https://leap.se/post/2020_04_smack_the_virus/</guid>
       <description>&lt;p&gt;First things first: we&amp;rsquo;re alive and kicking, staying healthy and physically distant. In fact, we are keeping our physical distance at a minimum of 450kms (that&amp;rsquo;s 280 miles)!&lt;/p&gt;
 &lt;p&gt;If you are a Windows user, and you have tried to install or download 
 &lt;a href=&#34;https://riseup.net/en/vpn&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RiseupVPN&lt;/a&gt; and ran into one of those big, red warnings?&lt;/p&gt;
