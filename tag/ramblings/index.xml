@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ramblings | LEAP Encryption Access Project</title>
-    <link>https://leap.se/tag/ramblings/</link>
-      <atom:link href="https://leap.se/tag/ramblings/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://chuckmcandrew.com/leap.se/tag/ramblings/</link>
+      <atom:link href="https://chuckmcandrew.com/leap.se/tag/ramblings/index.xml" rel="self" type="application/rss+xml" />
     <description>ramblings</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>(c) LEAP 2020 - all rights reversed</copyright><lastBuildDate>Wed, 01 Jul 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://leap.se/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>https://chuckmcandrew.com/leap.se/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>ramblings</title>
-      <link>https://leap.se/tag/ramblings/</link>
+      <link>https://chuckmcandrew.com/leap.se/tag/ramblings/</link>
     </image>
     
     <item>
       <title>On wireguard</title>
-      <link>https://leap.se/post/2020_07_wireguard/</link>
+      <link>https://chuckmcandrew.com/leap.se/post/2020_07_wireguard/</link>
       <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>https://leap.se/post/2020_07_wireguard/</guid>
+      <guid>https://chuckmcandrew.com/leap.se/post/2020_07_wireguard/</guid>
       <description>&lt;p&gt;Our VPN is built on top of 
 &lt;a href=&#34;https://openvpn.net/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OpenVPN&lt;/a&gt;, a well tested and
 widely used technology that has been around for almost two decades. As most
