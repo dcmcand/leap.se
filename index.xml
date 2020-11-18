@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LEAP Encryption Access Project</title>
-    <link>https://leap.se/</link>
-      <atom:link href="https://leap.se/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://chuckmcandrew.com/leap.se/</link>
+      <atom:link href="https://chuckmcandrew.com/leap.se/index.xml" rel="self" type="application/rss+xml" />
     <description>LEAP Encryption Access Project</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>(c) LEAP 2020 - all rights reversed</copyright><lastBuildDate>Sat, 14 Nov 2020 00:00:00 +0100</lastBuildDate>
     <image>
-      <url>https://leap.se/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>https://chuckmcandrew.com/leap.se/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>LEAP Encryption Access Project</title>
-      <link>https://leap.se/</link>
+      <link>https://chuckmcandrew.com/leap.se/</link>
     </image>
     
     <item>
       <title>On wireguard</title>
-      <link>https://leap.se/post/2020_07_wireguard/</link>
+      <link>https://chuckmcandrew.com/leap.se/post/2020_07_wireguard/</link>
       <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>https://leap.se/post/2020_07_wireguard/</guid>
+      <guid>https://chuckmcandrew.com/leap.se/post/2020_07_wireguard/</guid>
       <description>&lt;p&gt;Our VPN is built on top of 
 &lt;a href=&#34;https://openvpn.net/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OpenVPN&lt;/a&gt;, a well tested and
 widely used technology that has been around for almost two decades. As most
@@ -87,9 +87,9 @@ prefer to prioritize our energies on providing a more stable and smooth VPN.&lt;
     
     <item>
       <title>Packaging in GNU/Linux</title>
-      <link>https://leap.se/post/2020_06_linux_packaging/</link>
+      <link>https://chuckmcandrew.com/leap.se/post/2020_06_linux_packaging/</link>
       <pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://leap.se/post/2020_06_linux_packaging/</guid>
+      <guid>https://chuckmcandrew.com/leap.se/post/2020_06_linux_packaging/</guid>
       <description>&lt;p&gt;We get frequently asked why we don&amp;rsquo;t do flatpack or appimage or arch packages
 or&amp;hellip; for our VPN. There are many distros and many package managers in GNU/Linux. Sadly our
 time is limited and we have to decide what we focus our energies on. And
@@ -138,9 +138,9 @@ write to our
     
     <item>
       <title>Smack the Virus!</title>
-      <link>https://leap.se/post/2020_04_smack_the_virus/</link>
+      <link>https://chuckmcandrew.com/leap.se/post/2020_04_smack_the_virus/</link>
       <pubDate>Fri, 10 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://leap.se/post/2020_04_smack_the_virus/</guid>
+      <guid>https://chuckmcandrew.com/leap.se/post/2020_04_smack_the_virus/</guid>
       <description>&lt;p&gt;First things first: we&amp;rsquo;re alive and kicking, staying healthy and physically distant. In fact, we are keeping our physical distance at a minimum of 450kms (that&amp;rsquo;s 280 miles)!&lt;/p&gt;
 &lt;p&gt;If you are a Windows user, and you have tried to install or download 
 &lt;a href=&#34;https://riseup.net/en/vpn&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RiseupVPN&lt;/a&gt; and ran into one of those big, red warnings?&lt;/p&gt;

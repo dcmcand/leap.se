@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>flatpack | LEAP Encryption Access Project</title>
-    <link>https://leap.se/tag/flatpack/</link>
-      <atom:link href="https://leap.se/tag/flatpack/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://chuckmcandrew.com/leap.se/tag/flatpack/</link>
+      <atom:link href="https://chuckmcandrew.com/leap.se/tag/flatpack/index.xml" rel="self" type="application/rss+xml" />
     <description>flatpack</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>(c) LEAP 2020 - all rights reversed</copyright><lastBuildDate>Thu, 18 Jun 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://leap.se/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>https://chuckmcandrew.com/leap.se/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>flatpack</title>
-      <link>https://leap.se/tag/flatpack/</link>
+      <link>https://chuckmcandrew.com/leap.se/tag/flatpack/</link>
     </image>
     
     <item>
       <title>Packaging in GNU/Linux</title>
-      <link>https://leap.se/post/2020_06_linux_packaging/</link>
+      <link>https://chuckmcandrew.com/leap.se/post/2020_06_linux_packaging/</link>
       <pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://leap.se/post/2020_06_linux_packaging/</guid>
+      <guid>https://chuckmcandrew.com/leap.se/post/2020_06_linux_packaging/</guid>
       <description>&lt;p&gt;We get frequently asked why we don&amp;rsquo;t do flatpack or appimage or arch packages
 or&amp;hellip; for our VPN. There are many distros and many package managers in GNU/Linux. Sadly our
 time is limited and we have to decide what we focus our energies on. And
