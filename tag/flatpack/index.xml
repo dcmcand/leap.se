@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>flatpack | LEAP Encryption Access Project</title>
+    <link>https://leap.se/tag/flatpack/</link>
+      <atom:link href="https://leap.se/tag/flatpack/index.xml" rel="self" type="application/rss+xml" />
+    <description>flatpack</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>(c) LEAP 2020 - all rights reversed</copyright><lastBuildDate>Thu, 18 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://leap.se/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>flatpack</title>
+      <link>https://leap.se/tag/flatpack/</link>
+    </image>
+    
+    <item>
+      <title>Packaging in GNU/Linux</title>
+      <link>https://leap.se/post/2020_06_linux_packaging/</link>
+      <pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://leap.se/post/2020_06_linux_packaging/</guid>
+      <description>&lt;p&gt;We get frequently asked why we don&amp;rsquo;t do flatpack or appimage or arch packages
+or&amp;hellip; for our VPN. There are many distros and many package managers in GNU/Linux. Sadly our
+time is limited and we have to decide what we focus our energies on. And
+currently in GNU/Linux we are focusing our work on 
+&lt;a href=&#34;https://snapcraft.io/riseup-vpn&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;snap
+packages&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We know, snap has many problems. Packages often don&amp;rsquo;t work well in distros not
+based on debian (
+&lt;a href=&#34;https://0xacab.org/leap/bitmask-vpn/-/issues/272&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#272&lt;/a&gt;,
+
+&lt;a href=&#34;https://0xacab.org/leap/bitmask-vpn/-/issues/77&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#77&lt;/a&gt;). It&amp;rsquo;s a centralized
+platform, controlled by one commercial entity and 
+&lt;a href=&#34;https://jatan.blog/2020/05/02/ubuntu-snap-obsession-has-snapped-me-off-of-it/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;not everybody agrees with
+their decisions&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Our primary target audience has always been the less computer-savvy users. In
+GNU/Linux most of them use ubuntu. That has been our main reason to focus
+our energies on supporting ubuntu first. And snap makes it very easy to include
+software in ubuntu which is convenient too.  Also the most used
+distros around are debian based, and snap usually works well on those.&lt;/p&gt;
+&lt;p&gt;Knowing that not everybody likes snap, we produce 
+&lt;a href=&#34;https://riseup.net/en/vpn/linux#package-installation&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;.deb
+packages&lt;/a&gt; as well and we
+do our best to keep them up to date.&lt;/p&gt;
+&lt;p&gt;One of the other options we have explored is flatpack. I think its architecture
+is great, its security is really nice and it solves some of the problems of snap
+(it&amp;rsquo;s not centralized, the control is in the users, &amp;hellip;). But flatpack is designed
+to containerize the applications, making it impossible to package something like a
+VPN, because it needs to modify the network configuration and the firewall
+which is by design not allowed by flatpack. So flatpack is not an option for us.&lt;/p&gt;
+&lt;p&gt;Snap does containerize as well, but this is something that you can disable when
+you make the snap by using the &amp;lsquo;classic&amp;rsquo; mode. We do that to be able to package
+a VPN into snap.&lt;/p&gt;
+&lt;p&gt;From the core team we might not have the time in the near future to work on any
+other packages. But we will welcome any contributors. If you would like to
+package the VPN for your favourite package manager we&amp;rsquo;ll be really happy to
+help. Don&amp;rsquo;t hesitate to 
+&lt;a href=&#34;https://0xacab.org/leap/bitmask-vpn/-/issues/new&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;open an
+issue&lt;/a&gt; to discuss it there,
+pass by on
+
+&lt;a href=&#34;https://kiwiirc.com/client/irc.freenode.net:&amp;#43;6697/?nick=guest?#leap&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;irc&lt;/a&gt; or
+write to our 
+&lt;a href=&#34;discuss-subscribe@leap.se&#34;&gt;mailing list&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

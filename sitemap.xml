@@ -3,86 +3,111 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://chuckmcandrew.com/leap.se/about/</loc>
+    <loc>https://leap.se/about/</loc>
     <lastmod>2020-11-14T20:58:29-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://chuckmcandrew.com/leap.se/</loc>
-    <lastmod>2020-11-14T20:58:29-05:00</lastmod>
+    <loc>https://leap.se/</loc>
+    <lastmod>2020-11-18T17:28:23+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://chuckmcandrew.com/leap.se/author/admin/</loc>
+    <loc>https://leap.se/author/admin/</loc>
+    <lastmod>2020-11-18T17:28:23+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://leap.se/authors/</loc>
+    <lastmod>2020-11-18T17:28:23+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://leap.se/categories/</loc>
+    <lastmod>2020-11-18T17:28:23+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://leap.se/post/2020_07_wireguard/</loc>
     <lastmod>2020-11-11T18:27:49+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://chuckmcandrew.com/leap.se/authors/</loc>
+    <loc>https://leap.se/tag/ramblings/</loc>
+    <lastmod>2020-11-18T17:28:23+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://leap.se/tags/</loc>
+    <lastmod>2020-11-18T17:28:23+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://leap.se/category/vpn/</loc>
     <lastmod>2020-11-11T18:27:49+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://chuckmcandrew.com/leap.se/categories/</loc>
+    <loc>https://leap.se/tag/whynot/</loc>
+    <lastmod>2020-11-18T17:28:23+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://leap.se/tag/flatpack/</loc>
+    <lastmod>2020-11-18T17:28:23+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://leap.se/tag/linux/</loc>
+    <lastmod>2020-11-18T17:28:23+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://leap.se/category/packaging/</loc>
+    <lastmod>2020-11-18T17:28:23+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://leap.se/post/2020_06_linux_packaging/</loc>
+    <lastmod>2020-11-18T17:28:23+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://leap.se/tag/snap/</loc>
+    <lastmod>2020-11-18T17:28:23+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://leap.se/tag/news/</loc>
     <lastmod>2020-11-11T18:27:49+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://chuckmcandrew.com/leap.se/post/2020_07_wireguard/</loc>
+    <loc>https://leap.se/post/2020_04_smack_the_virus/</loc>
     <lastmod>2020-11-11T18:27:49+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://chuckmcandrew.com/leap.se/tag/ramblings/</loc>
+    <loc>https://leap.se/tag/windows/</loc>
     <lastmod>2020-11-11T18:27:49+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://chuckmcandrew.com/leap.se/tags/</loc>
-    <lastmod>2020-11-11T18:27:49+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chuckmcandrew.com/leap.se/category/vpn/</loc>
-    <lastmod>2020-11-11T18:27:49+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chuckmcandrew.com/leap.se/tag/whynot/</loc>
-    <lastmod>2020-11-11T18:27:49+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chuckmcandrew.com/leap.se/tag/news/</loc>
-    <lastmod>2020-11-11T18:27:49+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chuckmcandrew.com/leap.se/post/2020_04_smack_the_virus/</loc>
-    <lastmod>2020-11-11T18:27:49+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chuckmcandrew.com/leap.se/tag/windows/</loc>
-    <lastmod>2020-11-11T18:27:49+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chuckmcandrew.com/leap.se/author/leap/</loc>
+    <loc>https://leap.se/author/leap/</loc>
     <lastmod>2020-11-11T18:03:51+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://chuckmcandrew.com/leap.se/post/</loc>
+    <loc>https://leap.se/post/</loc>
     <lastmod>2019-05-06T17:54:11+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://chuckmcandrew.com/leap.se/publication_types/</loc>
+    <loc>https://leap.se/publication_types/</loc>
   </url>
   
   <url>
-    <loc>https://chuckmcandrew.com/leap.se/publication/</loc>
+    <loc>https://leap.se/publication/</loc>
     <lastmod>2019-05-06T17:54:11+01:00</lastmod>
   </url>
   
